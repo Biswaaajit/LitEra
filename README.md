@@ -1,8 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# LitEra
 
-Currently, two official plugins are available:
+Online Library Site is an engaging platform designed for book lovers to explore, discover, and manage a diverse collection of books. It offers users a seamless experience with features like:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Home Page Highlights
+- **Book Categories**: Quickly browse books by genres such as fiction, classics, fantasy, and more.
+- **Popular Books Section**: Discover trending and highly-rated books showcased prominently.
+
+### Additional Functionalities
+- **Browse Entire Collection**: View the entire library catalog in one place for seamless exploration.
+- **Add New Books**: Contribute by adding new books with details like title, author, genre, and a brief summary.
+- **View Book Details**: Access comprehensive information about each book, including title, author, genre, and summary.
+
+
+
+
+## Deployment
+To downlode all node packages
+
+```bash
+  npm install
+```
+
+To deploy this project run
+
+```bash
+  npm run dev
+```
+
+
+## Tech Stack
+
+- Html
+- Tailwind Css
+- Java Script
+- React
+- Redux
+- React Router
+
+
+
+## Live Link
+- [LitEra](https://lit-era-biswajeets-projects-02e53ecd.vercel.app/) 
