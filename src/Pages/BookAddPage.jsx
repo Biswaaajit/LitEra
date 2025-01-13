@@ -104,8 +104,9 @@ function BookAddPage() {
           />
           <BookRating rating={rating} dispatch={dispatch} />
           <AddInput
-            label="Book Genre (Optional)"
+            label="Book Genre"
             type="text"
+            require="true"
             value={genre}
             setFunc={(value) => handleChange("addGenre", value)}
           />
