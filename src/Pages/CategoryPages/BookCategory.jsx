@@ -31,7 +31,7 @@ function BookCategory() {
 
   return (
     <div className="outlet min-h-screen flex flex-col">
-      <div>
+      <div className=" mt-8 flex justify-center items-center">
         <SearchInput handleSearch={handleSearch} />
       </div>
       {empty ? <NoData /> : <Collection books={books} />}
