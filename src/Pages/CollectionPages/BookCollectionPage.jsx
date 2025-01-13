@@ -28,8 +28,8 @@ function BookCollectionPage() {
   }, []);
 
   return (
-    <div className=" outlet min-h-screen flex flex-col ">
-      <div className="w-full mt-8">
+    <div className=" outlet w-full min-h-screen  flex flex-col ">
+      <div className=" mt-8 flex justify-center items-center">
         <SearchInput handleSearch={handleSearch} />
       </div>
       {empty ? <NoData /> : <Collection books={books} />}
