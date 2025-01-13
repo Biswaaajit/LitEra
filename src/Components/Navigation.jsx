@@ -6,7 +6,7 @@ import NavigationLinks from "./NavigationLinks";
 function Navigation() {
   const [open, setOpen] = useState(false);
   return (
-    <div className="absolute w-full flex  items-center justify-between  px-4 py-3 lg:px-8 shadow-lg z-30 navigate">
+    <div className="absolute w-full flex shadow-lg   items-center justify-between px-2  sm:px-4 py-3 lg:px-8  z-30 navigate">
       <img
         src="/logo.png"
         alt="website logo"

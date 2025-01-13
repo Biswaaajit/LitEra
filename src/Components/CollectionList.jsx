@@ -7,7 +7,7 @@ function CollectionList({ book }) {
   return (
     <Link
       to={`/books/${id}`}
-      className="w-[10rem] sm:w-[12rem] lg:w-[14rem] hover:scale-110 transition-all space-y-2 cursor-pointer"
+      className="w-[28vw] sm:w-[12rem] lg:w-[14rem] hover:scale-110 transition-all space-y-2 cursor-pointer"
     >
       <img src={image} alt={title} className=" aspect-[1/1.5] " />
 

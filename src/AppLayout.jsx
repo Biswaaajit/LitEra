@@ -4,7 +4,7 @@ import Footer from "./Components/Footer";
 
 function AppLayout() {
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full  min-h-screen ">
       <Navigation />
       <Outlet />
       <Footer />

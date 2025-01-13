@@ -3,9 +3,9 @@ import Proptype from "prop-types";
 
 function SearchInput({ handleSearch }) {
   return (
-    <div className="flex w-[70%] sm:w-[60%] md:w-[55%] lg:w-[50%] xl:w-[40%] mx-auto items-center border-2  border-heading rounded-full transition-all">
+    <div className="flex w-[70%] sm:w-[60%]  md:w-[55%] lg:w-[50%] xl:w-[40%]  mx-auto items-center border-2  border-heading rounded-full transition-all">
       <div className="w-fit pl-3 md:pl-4 pr-0 lg:pr-1">
-        <IoSearch className="text-heading text-2xl" />
+        <IoSearch className="text-heading text-xl sm:text-2xl" />
       </div>
       <input
         onChange={handleSearch}
